@@ -1,66 +1,103 @@
-body{
-    background-color: antiquewhite;
-    margin: 0px;
+body {
+  background-color: white;
+  margin: 0px;
 }
 
-header{
-    padding: 10px 0px;
-    text-align: center;
-    background-color: aquamarine;
+/* 271663 */
+/* 4556B5 */
+
+header {
+  padding: 10px 0px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(69, 86, 181, 1) 0%,
+    rgba(39, 22, 99, 1) 100%
+  );
 }
 
-main{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    padding: 10px 20px;
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px 20px;
 }
 
-aside{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  gap: 15px;
 }
 
-.searchTextfield{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.searchTileContainer{
-display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.searchTile{
-    text-align: center;
-    border: 1px solid black;
+input{
+    padding: 8px 5px;
 }
 
-
-
-
-section{
-    flex: 1;
+.searchButton{
+    padding: 6px 0px;
+    background-color: rgba(69, 86, 181, 1);
+    border: none;
+    color: gainsboro;
 }
 
-.topContent{
-    padding-left: 20px;
-    border: 1px solid black;
-}
-.topContentHeader{
-    display: flex;
-    flex-direction: row;
+.searchButton:hover{
+    cursor: pointer;
+    background-color: rgba(39, 22, 99, 1);
+    color: white;
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+
+.searchTextfield {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.searchTileContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.searchTile {
+  text-align: center;
+  background-color: gainsboro;
+  padding: 5px 0px;
+  border-radius: 5px;
+
 }
 
-.weatherTile{
-    background-color: azure;
-    border-radius: 10px;
-    padding: 10px 10px;
+.seperator{
+    border: 1px solid gainsboro;
+}
+
+.searchTile:hover{
+    cursor: pointer;
+}
+
+section {
+  flex: 1;
+}
+
+.topContent {
+  padding-left: 20px;
+  border: 1px solid black;
+}
+.topContentHeader {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.weatherTile {
+  background-color: #323D4E;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 10px;
 }
