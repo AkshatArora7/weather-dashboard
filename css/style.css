@@ -3,9 +3,6 @@ body {
   margin: 0px;
 }
 
-/* 271663 */
-/* 4556B5 */
-
 header {
   padding: 10px 0px;
   text-align: center;
@@ -87,9 +84,10 @@ section {
   font-weight: bold;
   display: flex;
   flex-direction: row;
+  gap: 10px;
 }
 
-.container {
+#container {
   display: flex;
   flex-direction: row;
   gap: 20px;
